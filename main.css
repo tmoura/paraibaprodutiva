@@ -9,11 +9,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px 10%;
+    /* margin: 5px 10%; */
 }
 
-header .logo img{
-    width: 50%;
+header .logo{
+    text-align: center;
 }
 
 header .menu ul{
@@ -22,7 +22,7 @@ header .menu ul{
     list-style-type: none;
 }
 header .menu ul li{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-style: italic;
     margin: 7px;
     border-right: 1.5px solid #d3d3d3;
@@ -43,19 +43,30 @@ header .menu a:hover{
 /*********************/
 @media screen and (min-width:400px){
     header .menu ul{
-        flex-direction: row;  
+        flex-direction: row;
+        justify-content: center;
+    }
+    header .menu ul li{
+        font-size: 0.8rem;
     }
 }
 
 @media screen and (min-width:600px){
     header{
-        flex-direction: row;    
+        flex-direction: row;
+        justify-content: center;    
+    }
+    header .menu ul li{
+        font-size: 1.0rem;
     }
 }
 
 @media screen and (min-width:850px){
     header{
         justify-content: space-between;
+    }
+    header .menu ul li{
+        font-size: 1.2rem;
     }
 }
 /******** FIM DO COMPONENTE 1 ********/
