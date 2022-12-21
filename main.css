@@ -113,6 +113,11 @@ header .menu a:hover{
     text-align: right;
 }
 
+.centro{
+    background-color: rgb(228, 227, 227);
+    margin: 1%;
+}
+
 
 /* BANNER */
 
@@ -151,27 +156,22 @@ header .menu a:hover{
 /* NOTAS */
 
 .notas{
-    background-color: #8CC7FF;
-    padding: 40px;
+    background-color: #fdfdfd;
+    text-align: center;
+    font-size: 2rem;
 }
-.notas table{
-    font-size: 1.3em;
-    margin: auto;
-    border-collapse: collapse;
-    width: 30%;
-    border-color: whitesmoke;
-    text-align: left;
+
+.notas ul{
+    list-style-type: none;
 }
-.notas table thead tr{
-    border-bottom: 3px solid whitesmoke;
+.notas li {
+    display: inline;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
-.notas table tbody tr{
-    border-bottom: 1px solid whitesmoke;
-}
-.notas table tbody tr:hover{
-    background-color: blue;
-    color: whitesmoke;
-    font-weight: bold;
+  
+.notas li img {
+    width: 10%;
 }
 
 /* RODAPÉ */
